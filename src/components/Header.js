@@ -2,7 +2,7 @@ import { Text, View, StyleSheet } from 'react-native';
 export default function Header() {
   return (
     <View style={styles.header}>
-      <Text style={styles.headerText}>Lista de Tarefas</Text>
+      <Text style={styles.headerText}>Livraria</Text>
     </View>
   );
 }

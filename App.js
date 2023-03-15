@@ -1,11 +1,15 @@
-import { StyleSheet, Text, View } from 'react-native'
-import Header from './src/components/Header.js';
+import { StyleSheet, Image, Text, View, Card } from 'react-native'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header />
-      <Text>Open up App.js to start working on your app!</Text>
+      <Card>
+      <Image
+        style={styles.tinyLogo}
+        source={require('.assets/dracula-bram-stoker.jpg')}
+      />
+      <Text>$6790</Text>
+      </Card>
     </View>
   );
 }
